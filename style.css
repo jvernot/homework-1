@@ -6,6 +6,9 @@
 
 body {
     background-color: #d9dcd6;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 header {
@@ -20,11 +23,11 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+#seo {
     color: #d9dcd6;
 }
 
-header nav {
+#nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,23 +35,16 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
+#nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+#nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
+
 
 #pic {
     margin-bottom: 25px;
@@ -118,6 +114,7 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: black;
 }
 
 footer h2 {
